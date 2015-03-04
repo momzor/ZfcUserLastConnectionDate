@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/momzor/ZfcUserLastConnectionDate.svg)](https://travis-ci.org/momzor/ZfcUserLastConnectionDate)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/momzor/ZfcUserLastConnectionDate/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/momzor/ZfcUserLastConnectionDate/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/momzor/ZfcUserLastConnectionDate/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/momzor/ZfcUserLastConnectionDate/?branch=master)
+
 Created by inovia-team
 
 Introduction
