@@ -46,7 +46,7 @@ Installation
 
 #### Module Activation
 
-1.  In your `application.config.php`file.
+In your `application.config.php`file :
 
     ```php
     <?php
@@ -60,9 +60,8 @@ Installation
     ```
 
 
-2. Update your User table and  Entity.
 
-1. Update Your Model
+Update Your Model:
 
 By Extending ZfcUserLastConnectionDate User entity:
 ```php
@@ -83,7 +82,8 @@ class User extends ZfcUser
 }
 ```
 
-3. Update Your database schema:
+
+Update Your database schema:
 
 There are some SQL example in  `./vendor/momzor/zfc-user-last-connection-date/data/`
 
