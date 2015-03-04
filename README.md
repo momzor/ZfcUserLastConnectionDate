@@ -65,8 +65,7 @@ Installation
 1. Update Your Model
 
 By Extending ZfcUserLastConnectionDate User entity:
-```
-namespace User\Entity;
+```php
 use ZfcUserLastConnectionDate\Entity\LastConnectionDateUser;
 class User extends LastConnectionDateUser
 {
