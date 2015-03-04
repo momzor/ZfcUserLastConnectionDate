@@ -1,0 +1,27 @@
+{
+  "name": "momzor/zfc-user-last-connection-date",
+  "description": "Last connection date for ZfcUser module ",
+  "license": "",
+  "keywords": [
+    "ZfcUser last connection",
+    "zfcUser connection date"
+  ],
+  "minimum-stability" : "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.3.3",
+    "zendframework/zendframework": "2.3.*",
+    "zf-commons/zfc-user": "1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "ZfcUserLastConnectionDate": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}
