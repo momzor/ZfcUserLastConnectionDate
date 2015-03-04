@@ -79,7 +79,7 @@ By Extending ZfcUserLastConnectionDate User entity:
     ```
 OR if you don't want to extends it you can use the Trait :
     ```php
-        <?php
+    <?php
         namespace User\Entity;
 
         use ZfcUserLastConnectionDate\Entity\LastConnectionTrait;
