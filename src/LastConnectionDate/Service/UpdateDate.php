@@ -16,12 +16,12 @@ class UpdateDate {
      * @return bool
      * @throws \Exception
      */
-    public function updateDateFromIdUser($userId, $zfcMapper){
+    public function updateDateFromIdUser($userId, $zfcMapper) {
 
-        if(!$zfcMapper instanceof UserZendDb){
-           throw new \RuntimeException('Invalid Mapper passed to lastConnectionDate update service');
+        if(!$zfcMapper instanceof UserZendDb) {
+            throw new \RuntimeException('Invalid Mapper passed to lastConnectionDate update service');
         }
-        if(!$userId ||  !is_int($userId)){
+        if(!$userId ||  !is_int($userId)) {
             throw new \RuntimeException('Invalid userId passed to lastConnectionDate update service');
         }
 
@@ -30,7 +30,7 @@ class UpdateDate {
          */
         $user = $zfcMapper->findById($userId);
 
-        if($user instanceof User){
+        if($user instanceof User) {
             $dateTime = new \DateTime('NOW');
             $lastDate = $dateTime->format(\DateTime::ISO8601);
             $user->setLastConnectionDate($lastDate);

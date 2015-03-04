@@ -9,7 +9,7 @@ namespace LastConnectionDate\Entity;
 
 use ZfcUser\Entity\User as ZfcUser;
 
-class User extends ZfcUser{
+class User extends ZfcUser {
 
 use LastConnectionTrait;
 
