@@ -50,6 +50,7 @@ Installation
 
 1.  In your `application.config.php`file.
 
+    ```php
     <?php
     return array(
         'modules' => array(
@@ -58,6 +59,7 @@ Installation
         ),
         // ...
     );
+    ```
 
 
 2. Update your User table and  Entity.
