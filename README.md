@@ -27,7 +27,7 @@ Requirements
 Installation
 ------------
 
-### Main Setup
+### Get the module
 
 #### With composer
 
@@ -49,7 +49,6 @@ Installation
 
 1.  In your `application.config.php`file.
 
-    ```php
     <?php
     return array(
         'modules' => array(
@@ -58,13 +57,12 @@ Installation
         ),
         // ...
     );
-    ```
+
 
 2. Update your User table and  Entity.
 
 By Extending LastConnectionDate User entity:
 
-    ```php
     <?php
 
     namespace User\Entity;
@@ -76,9 +74,7 @@ By Extending LastConnectionDate User entity:
 
     }
 
-    ```
 OR if you don't want to extends it you can use the Trait :
-        ```php
         <?php
 
         namespace User\Entity;
@@ -91,7 +87,6 @@ OR if you don't want to extends it you can use the Trait :
 
         }
 
-        ```
 
 2. There are some SQL example in  `./vendor/momzor/zfc-user-last-connection-date/data/`
 
