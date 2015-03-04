@@ -65,9 +65,7 @@ Installation
 1. Update Your Model
 
 By Extending ZfcUserLastConnectionDate User entity:
-    ```php
     <?php
-
     namespace User\Entity;
 
     use ZfcUserLastConnectionDate\Entity\LastConnectionDateUser;
@@ -76,11 +74,10 @@ By Extending ZfcUserLastConnectionDate User entity:
     {
 
     }
-    ```
+
 OR if you don't want to extends it you can use the Trait :
-    ```php
-    <?php
-        namespace User\Entity;
+
+
 
         use ZfcUserLastConnectionDate\Entity\LastConnectionTrait;
 
@@ -89,7 +86,6 @@ OR if you don't want to extends it you can use the Trait :
             use LastConnectionTrait;
 
         }
-    ```
 
 3. Update Your database schema:
 
@@ -99,6 +95,6 @@ There are some SQL example in  `./vendor/momzor/zfc-user-last-connection-date/da
 
 Navigate to http://yourproject/user/login.
 
-Storage Adapter Modules
+Configuration
 -----------------------
 There is nothing to configure !
