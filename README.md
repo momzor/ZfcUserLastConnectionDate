@@ -1,7 +1,7 @@
 # ZfcUserLastConnectionDate
-[![Build Status](https://travis-ci.org/inovia-team/ZfcUserLastConnectionDate.svg)](https://travis-ci.org/inovia-team/ZfcUserLastConnectionDate)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/inovia-team/ZfcUserLastConnectionDate/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/inovia-team/ZfcUserLastConnectionDate/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/inovia-team/ZfcUserLastConnectionDate/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/inovia-team/ZfcUserLastConnectionDate/?branch=master)
+[![Build Status](https://travis-ci.org/momzor/ZfcUserLastConnectionDate.svg)](https://travis-ci.org/momzor/ZfcUserLastConnectionDate)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/momzor/ZfcUserLastConnectionDate/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/momzor/ZfcUserLastConnectionDate/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/momzor/ZfcUserLastConnectionDate/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/momzor/ZfcUserLastConnectionDate/?branch=master)
 
 
 Introduction
@@ -34,7 +34,7 @@ Installation
 
     ```json
     "require": {
-        "inovia-team/zfc-user-last-connection-date": "dev-master"
+        "momzor/zfc-user-last-connection-date": "dev-master"
     }
     ```
 
@@ -84,7 +84,7 @@ class User extends ZfcUser
 
 Update Your database schema:
 
-There are some SQL example in  `./vendor/inovia-team/zfc-user-last-connection-date/data/`
+There are some SQL example in  `./vendor/momzor/zfc-user-last-connection-date/data/`
 
 
 
