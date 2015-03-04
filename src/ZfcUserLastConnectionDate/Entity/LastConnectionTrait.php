@@ -6,7 +6,7 @@
      * Time: 11:12 AM
      */
 
-namespace LastConnectionDate\Entity;
+namespace ZfcUserLastConnectionDate\Entity;
 
 trait LastConnectionTrait {
 

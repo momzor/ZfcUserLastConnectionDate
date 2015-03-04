@@ -10,7 +10,7 @@
          syntaxCheck="true"
         >
     <testsuite name="Test Suite">
-        <directory>./LastConnectionDateTest</directory>
+        <directory>./ZfcUserLastConnectionDateTest</directory>
     </testsuite>
     <filter>
         <whitelist>
