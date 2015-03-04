@@ -48,16 +48,15 @@ Installation
 
 In your `application.config.php`file :
 
-    ```php
-    <?php
-    return array(
-        'modules' => array(
-            // ...
-            'ZfcUserLastConnectionDate',
-        ),
+```php
+return array(
+    'modules' => array(
         // ...
-    );
-    ```
+        'ZfcUserLastConnectionDate',
+    ),
+        // ...
+);
+```
 
 
 
